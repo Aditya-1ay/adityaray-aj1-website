@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aditya Ray | Student Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #080b16;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #11162b;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid #292f4d;
+        }
+
+        header h1 {
+            text-align: center;
+            color: #9b85ff;
+            margin-bottom: 12px;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #9b85ff;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 80px 25px;
+        }
+
+        .hero {
+            max-width: none;
+            min-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, #080b16, #171335);
+            padding: 40px 20px;
+        }
+
+        .hero h2 {
+            font-size: 52px;
+            color: #9b85ff;
+            margin-bottom: 15px;
+        }
+
+        .hero h3 {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            color: #c8cad5;
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 13px 25px;
+            background: #7c5cff;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #6545e8;
+        }
+
+        h2.section-title {
+            color: #9b85ff;
+            font-size: 34px;
+            margin-bottom: 20px;
+        }
+
+        .intro {
+            color: #c8cad5;
+            font-size: 17px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 22px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: #11162b;
+            padding: 25px;
+            border-radius: 14px;
+            border: 1px solid #292f4d;
+            transition: 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #7c5cff;
+        }
+
+        .card h3 {
+            color: #a99aff
